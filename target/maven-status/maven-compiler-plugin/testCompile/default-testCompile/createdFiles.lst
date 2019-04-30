@@ -1,0 +1,5 @@
+com/automation/techassessment/ui/Sauce/BaseUITest.class
+com/automation/techassessment/ui/Sauce/SauceDemoLoginTest.class
+com/automation/techassessment/api/tmdb/TVSearchTest.class
+com/automation/techassessment/api/tmdb/MovieSearchTests.class
+com/automation/techassessment/ui/Sauce/SauceDemoCartTest.class

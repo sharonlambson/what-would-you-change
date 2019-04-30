@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 10.891 sec <<< FAILURE!
+setup(com.automation.techassessment.api.tmdb.TVSearchTest)  Time elapsed: 0.542 sec  <<< FAILURE!
+java.lang.Error: com.automation.techassessment.api.errors.ApiEndpointInitializationError: Need to pass in the tmdb.apiKey java opt
+	at com.automation.techassessment.api.endpoints.ApiEndpointDefaults.<clinit>(ApiEndpointDefaults.java:37)
+	at com.automation.techassessment.api.endpoints.ApiEndpoints$Builder.validateBaseUrl(ApiEndpoints.java:53)
+	at com.automation.techassessment.api.endpoints.ApiEndpoints$Builder.build(ApiEndpoints.java:72)
+	at com.automation.techassessment.api.tmdb.TVSearchTest.setup(TVSearchTest.java:23)
+Caused by: com.automation.techassessment.api.errors.ApiEndpointInitializationError: Need to pass in the tmdb.apiKey java opt
+	at com.automation.techassessment.APIPropertyManager.<init>(APIPropertyManager.java:24)
+	at com.automation.techassessment.APIPropertyManager.getInstance(APIPropertyManager.java:36)
+	at com.automation.techassessment.api.endpoints.ApiEndpointDefaults.init(ApiEndpointDefaults.java:53)
+	at com.automation.techassessment.api.endpoints.ApiEndpointDefaults.<clinit>(ApiEndpointDefaults.java:35)
+	... 41 more
+
